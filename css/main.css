@@ -2,16 +2,33 @@
 
 /* Main Styles */
 
+ul {
+  list-style-type: none;
+  float: left;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 40px;
+  padding-left: 620px;
+}
+
+li {
+  color: #688f8f;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
 body {
-  width: 1500px;
-  font-family: 'Roboto', sans-serif;
+  width: 1440px;
+  font-family: 'Open Sans Condensed', sans-serif;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1, h2 {
-  font-family: 'Roboto Slab';
+font-family: 'Pacifico', cursive;
   font-weight: bold;
 }
 
@@ -22,24 +39,36 @@ h2 {
 
 h4{
   font-weight: 400;
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
 }
 
 /* Grid */
 .full-width {
-  width: 1400px;
+  width: 100%;
   display: inline-block;
+  margin: auto;
+
 }
 
 .half-width {
-  width: 600px;
+  width: 45%;
   display: inline-block;
+  align-items: center;
+  padding-left: 40px;
+  margin-right: 20px;
+
 }
 
 .third-width {
-  width: 466px;
+  width: 30%;
   display: inline-block;
   align-items: center;
   padding-top: 50px;
+  padding-left: 33px;
 }
 
 /* Header */
@@ -48,14 +77,15 @@ h4{
   background-image: url(../img/hero-image.png);
   height: 800px;
   background-size: cover;
-  width: 1500px;
+  width: 100%;
+  margin: auto;
 }
 
 #header h1 {
   text-align: center;
   padding-top: 300px;
   font-size: 60px;
-  color: #bdbf09;
+  color: #ecb4a0;
 }
 
 #header p {text-align: center;
@@ -68,6 +98,7 @@ color: #095256;}
   display: inline-block;
   height: 1450px;
   width: 100%;
+  margin: auto;
 }
 
 .content-rogue {
@@ -87,16 +118,17 @@ color: #095256;}
   float: left;
 }
 
-.half-width {
-  padding-left: 80px;
-}
 
 /* About */
 
 .about-container {
   height: 550px;
-  width: 1500px;
-  background-color: #087e8b;
+  width: 100%;
+  background-color: #c2cfca;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+
 }
 
 #about-header {
@@ -114,25 +146,26 @@ color: #095256;}
 
 #about-me p {
 color: white;
-font-size: 24px;}
-
-#about-image, #about-me {
-  padding-top: 40px;
+font-size: 24px;
+padding-left: 40px;
+padding-right: 40px;
 }
+
 
 /* Contact Section */
 
 #follow-me img {
   align-items: center;
-  padding-left: 70px;
+ padding-left: 58px;
+ padding-top: 10px;
 }
 
 .contact-container {
   padding-top: 50px;
   height: 500px;
-  width: 1500px;
-  background-color: #095156;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #688f8f;
+  margin: auto;
 }
 
 .contact-container h2 {
@@ -140,27 +173,25 @@ font-size: 24px;}
 }
 
 .third-width h4 {
-  font-family: 'roboto';
+  font-family: 'Pacifico', cursive;
   font-weight: bold;
   color: white;
   text-align: center;
+  font-size: 20px;
 }
 
 .third-width p {
   text-align: center;
 color: white;}
 
-.third-width img {
-  align-items: center;
-  padding: 10px;
-}
 
-#footer {
+footer {
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
   height: 50px;
   width: 100%;
-  font-weight: bold;
-  background-color: #095156;
+  background-color: #688f8f;
   color: white;
-  padding-left: 600px;
+  text-align: center;
+  align-items: center;
 }
